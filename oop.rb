@@ -1,3 +1,29 @@
+class Unicorn
+    attr_reader :name, :color, :wheelssay
+   
+   
+    def initialize(name, color = "silver")
+    @name = name
+    @color = color
+    @say = "sparkly"
+    end
+
+    def
+        change_say(new_say)
+        @say = new_say
+    end
+
+Unicorn1 = 
+Unicorn.new("Magic")
+p Unicorn1.color
+Unicorn1.change_say("*~* sparkly*~*")
+
+
+
+
+
+
+
 # Write a class called Unicorn
 # it should have a dynamic name attribute
 # it should have a color attribute, that is silver by default
